@@ -5,14 +5,14 @@ def makeZBTXT():
     print("File opened, wirting 0's!")
 
     for i in range(1_000_000_000):
-        file.write("0")
+        file.write("public int makeChocolate(int small, int big, int goal) {if(small+big*5>=goal&&goal%5>=0&&goal-big*5>0){return goal-big*5;}if(small+big*5>=goal&&goal%5>=0&&small>=goal%5){return goal%5;}return -1;}")
     print("0's written, closing file.")
     file.close()
 
 
 def makeZB(layers):
 
-    makeZBTXT()
+    #makeZBTXT()
 
     for layerNum in range(layers - 1):
         layer = str("ZB" + str(layerNum))
